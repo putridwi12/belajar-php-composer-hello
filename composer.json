@@ -1,0 +1,19 @@
+{
+    "name": "programmerzamannow/belajar-php-composer-hello",
+    "description": "Library composer hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "putri dwi aprilyani",
+            "email": "echo.putridwiapeilyani@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "programmerzamannow\\belajar\\" : "src/"
+        }
+    }
+}
